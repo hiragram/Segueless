@@ -17,6 +17,11 @@
 		F6A66A201E2A66C100696B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A66A1E1E2A66C100696B10 /* LaunchScreen.storyboard */; };
 		F6A66A2B1E2A66C100696B10 /* SeguelessSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A66A2A1E2A66C100696B10 /* SeguelessSampleTests.swift */; };
 		F6A66A361E2A66C100696B10 /* SeguelessSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A66A351E2A66C100696B10 /* SeguelessSampleUITests.swift */; };
+		F6A66A441E2A69F300696B10 /* Segueless.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A66A431E2A69F300696B10 /* Segueless.swift */; };
+		F6A66A461E2A6A1200696B10 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A66A451E2A6A1200696B10 /* UIViewControllerExtension.swift */; };
+		F6A66A481E2A6A3800696B10 /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A66A471E2A6A3800696B10 /* StoryboardInstantiatable.swift */; };
+		F6A66A4A1E2A6D7400696B10 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A66A491E2A6D7300696B10 /* RedViewController.swift */; };
+		F6A66A4C1E2A6D9500696B10 /* RedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A66A4B1E2A6D9500696B10 /* RedViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,11 @@
 		F6A66A311E2A66C100696B10 /* SeguelessSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeguelessSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A66A351E2A66C100696B10 /* SeguelessSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguelessSampleUITests.swift; sourceTree = "<group>"; };
 		F6A66A371E2A66C100696B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A66A431E2A69F300696B10 /* Segueless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segueless.swift; sourceTree = "<group>"; };
+		F6A66A451E2A6A1200696B10 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		F6A66A471E2A6A3800696B10 /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
+		F6A66A491E2A6D7300696B10 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		F6A66A4B1E2A6D9500696B10 /* RedViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RedViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +151,9 @@
 			children = (
 				F6A669F81E2A66A800696B10 /* Segueless.h */,
 				F6A669F91E2A66A800696B10 /* Info.plist */,
+				F6A66A431E2A69F300696B10 /* Segueless.swift */,
+				F6A66A451E2A6A1200696B10 /* UIViewControllerExtension.swift */,
+				F6A66A471E2A6A3800696B10 /* StoryboardInstantiatable.swift */,
 			);
 			path = Segueless;
 			sourceTree = "<group>";
@@ -159,6 +172,8 @@
 			children = (
 				F6A66A151E2A66C100696B10 /* AppDelegate.swift */,
 				F6A66A171E2A66C100696B10 /* ViewController.swift */,
+				F6A66A491E2A6D7300696B10 /* RedViewController.swift */,
+				F6A66A4B1E2A6D9500696B10 /* RedViewController.storyboard */,
 				F6A66A191E2A66C100696B10 /* Main.storyboard */,
 				F6A66A1C1E2A66C100696B10 /* Assets.xcassets */,
 				F6A66A1E1E2A66C100696B10 /* LaunchScreen.storyboard */,
@@ -302,6 +317,7 @@
 					F6A669F41E2A66A700696B10 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Q3N95Y73WF;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					F6A669FD1E2A66A800696B10 = {
@@ -370,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A66A201E2A66C100696B10 /* LaunchScreen.storyboard in Resources */,
+				F6A66A4C1E2A6D9500696B10 /* RedViewController.storyboard in Resources */,
 				F6A66A1D1E2A66C100696B10 /* Assets.xcassets in Resources */,
 				F6A66A1B1E2A66C100696B10 /* Main.storyboard in Resources */,
 			);
@@ -396,6 +413,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A66A481E2A6A3800696B10 /* StoryboardInstantiatable.swift in Sources */,
+				F6A66A461E2A6A1200696B10 /* UIViewControllerExtension.swift in Sources */,
+				F6A66A441E2A69F300696B10 /* Segueless.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A66A181E2A66C100696B10 /* ViewController.swift in Sources */,
+				F6A66A4A1E2A6D7400696B10 /* RedViewController.swift in Sources */,
 				F6A66A161E2A66C100696B10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,6 +600,7 @@
 		F6A66A0A1E2A66A800696B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q3N95Y73WF;
@@ -591,6 +613,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.yura.Segueless;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -598,6 +621,7 @@
 		F6A66A0B1E2A66A800696B10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q3N95Y73WF;
@@ -617,6 +641,7 @@
 		F6A66A0D1E2A66A800696B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Q3N95Y73WF;
 				INFOPLIST_FILE = SeguelessTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -629,6 +654,7 @@
 		F6A66A0E1E2A66A800696B10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Q3N95Y73WF;
 				INFOPLIST_FILE = SeguelessTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

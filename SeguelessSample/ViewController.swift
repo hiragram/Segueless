@@ -7,19 +7,20 @@
 //
 
 import UIKit
+import Segueless
 
 class ViewController: UIViewController {
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+  @IBOutlet weak var textField: UITextField!
+
+  @IBAction func goToRed() {
+    show(RedViewController.self, sender: nil) { (vc) in
+
+      // You can configure destination view controller 
+      // in this block *WITHOUT PREPAREFORSEGUE*
+
+      vc.text = self.textField.text
+    }
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
-
 }
 

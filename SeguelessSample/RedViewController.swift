@@ -9,7 +9,7 @@
 import UIKit
 import Segueless
 
-class RedViewController: UIViewController, StoryboardInstantitable {
+class RedViewController: UIViewController, StoryboardInstantiatable {
 
   @IBOutlet private weak var textLabel: UILabel!
 
